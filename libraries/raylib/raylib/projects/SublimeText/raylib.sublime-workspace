@@ -1,0 +1,410 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/barro/Documents/Projects/RaylibProject/raylib-game/README.md",
+			"settings":
+			{
+				"buffer_size": 3305,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					7,
+					1,
+					"insert",
+					{
+						"characters": "Tester"
+					},
+					"BgAAABEJAAAAAAAAEgkAAAAAAAAKAAAAR2FtZSBUaXRsZRIJAAAAAAAAEwkAAAAAAAAAAAAAEwkAAAAAAAAUCQAAAAAAAAAAAAAUCQAAAAAAABUJAAAAAAAAAAAAABUJAAAAAAAAFgkAAAAAAAAAAAAAFgkAAAAAAAAXCQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAGwkAAAAAAAARCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					6,
+					"left_delete",
+					null,
+					"BgAAABYJAAAAAAAAFgkAAAAAAAABAAAAchUJAAAAAAAAFQkAAAAAAAABAAAAZRQJAAAAAAAAFAkAAAAAAAABAAAAdBMJAAAAAAAAEwkAAAAAAAABAAAAcxIJAAAAAAAAEgkAAAAAAAABAAAAZREJAAAAAAAAEQkAAAAAAAABAAAAVA",
+					"AQAAAAAAAAABAAAAFwkAAAAAAAAXCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					1,
+					"insert",
+					{
+						"characters": "Project"
+					},
+					"BwAAABEJAAAAAAAAEgkAAAAAAAAAAAAAEgkAAAAAAAATCQAAAAAAAAAAAAATCQAAAAAAABQJAAAAAAAAAAAAABQJAAAAAAAAFQkAAAAAAAAAAAAAFQkAAAAAAAAWCQAAAAAAAAAAAAAWCQAAAAAAABcJAAAAAAAAAAAAABcJAAAAAAAAGAkAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAEQkAAAAAAAARCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					1,
+					"insert",
+					{
+						"characters": " Practice"
+					},
+					"CQAAABgJAAAAAAAAGQkAAAAAAAAAAAAAGQkAAAAAAAAaCQAAAAAAAAAAAAAaCQAAAAAAABsJAAAAAAAAAAAAABsJAAAAAAAAHAkAAAAAAAAAAAAAHAkAAAAAAAAdCQAAAAAAAAAAAAAdCQAAAAAAAB4JAAAAAAAAAAAAAB4JAAAAAAAAHwkAAAAAAAAAAAAAHwkAAAAAAAAgCQAAAAAAAAAAAAAgCQAAAAAAACEJAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAGAkAAAAAAAAYCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					15,
+					1,
+					"paste",
+					null,
+					"AQAAACgJAAAAAAAAOAkAAAAAAAAKAAAAR2FtZSBUaXRsZQ",
+					"AQAAAAAAAAABAAAAMgkAAAAAAAAoCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"paste",
+					null,
+					"AQAAAFwJAAAAAAAAbAkAAAAAAAAKAAAAR2FtZSBUaXRsZQ",
+					"AQAAAAAAAAABAAAAZgkAAAAAAABcCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					21,
+					1,
+					"insert",
+					{
+						"characters": "Practice"
+					},
+					"CAAAAIQJAAAAAAAAhQkAAAAAAAAVAAAAWW91ciBHYW1lIERlc2NyaXB0aW9uhQkAAAAAAACGCQAAAAAAAAAAAACGCQAAAAAAAIcJAAAAAAAAAAAAAIcJAAAAAAAAiAkAAAAAAAAAAAAAiAkAAAAAAACJCQAAAAAAAAAAAACJCQAAAAAAAIoJAAAAAAAAAAAAAIoJAAAAAAAAiwkAAAAAAAAAAAAAiwkAAAAAAACMCQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAmQkAAAAAAACECQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					22,
+					1,
+					"insert",
+					{
+						"characters": " for"
+					},
+					"BAAAAIwJAAAAAAAAjQkAAAAAAAAAAAAAjQkAAAAAAACOCQAAAAAAAAAAAACOCQAAAAAAAI8JAAAAAAAAAAAAAI8JAAAAAAAAkAkAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAjAkAAAAAAACMCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					23,
+					1,
+					"insert",
+					{
+						"characters": " noobs"
+					},
+					"BgAAAJAJAAAAAAAAkQkAAAAAAAAAAAAAkQkAAAAAAACSCQAAAAAAAAAAAACSCQAAAAAAAJMJAAAAAAAAAAAAAJMJAAAAAAAAlAkAAAAAAAAAAAAAlAkAAAAAAACVCQAAAAAAAAAAAACVCQAAAAAAAJYJAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAkAkAAAAAAACQCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					28,
+					1,
+					"insert",
+					{
+						"characters": "Ian"
+					},
+					"AwAAAK0KAAAAAAAArgoAAAAAAAAMAAAARGV2ZWxvcGVyIDAxrgoAAAAAAACvCgAAAAAAAAAAAACvCgAAAAAAALAKAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAuQoAAAAAAACtCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					29,
+					1,
+					"insert",
+					{
+						"characters": " Barrow"
+					},
+					"BwAAALAKAAAAAAAAsQoAAAAAAAAAAAAAsQoAAAAAAACyCgAAAAAAAAAAAACyCgAAAAAAALMKAAAAAAAAAAAAALMKAAAAAAAAtAoAAAAAAAAAAAAAtAoAAAAAAAC1CgAAAAAAAAAAAAC1CgAAAAAAALYKAAAAAAAAAAAAALYKAAAAAAAAtwoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAsAoAAAAAAACwCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					32,
+					1,
+					"insert",
+					{
+						"characters": "Everything"
+					},
+					"CgAAAL0KAAAAAAAAvgoAAAAAAAAUAAAAUm9sZS9UYXNrcyBEZXZlbG9wZWS+CgAAAAAAAL8KAAAAAAAAAAAAAL8KAAAAAAAAwAoAAAAAAAAAAAAAwAoAAAAAAADBCgAAAAAAAAAAAADBCgAAAAAAAMIKAAAAAAAAAAAAAMIKAAAAAAAAwwoAAAAAAAAAAAAAwwoAAAAAAADECgAAAAAAAAAAAADECgAAAAAAAMUKAAAAAAAAAAAAAMUKAAAAAAAAxgoAAAAAAAAAAAAAxgoAAAAAAADHCgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0QoAAAAAAAC9CgAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "/C/Users/barro/Documents/Projects/RaylibProject/raylib-game/src/Makefile",
+			"settings":
+			{
+				"buffer_size": 14006,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		}
+	],
+	"build_system": "Packages/User/raylib.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/User/raylib.sublime-build",
+					""
+				],
+				[
+					"Packages/User/raylib.sublime-build",
+					"desktop"
+				],
+				[
+					"Packages/User/raylib.sublime-build",
+					"examples"
+				]
+			],
+			[
+				"Packages/User/raylib.sublime-build",
+				"examples"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/raylib/raylib"
+	],
+	"file_history":
+	[
+		"/C/Users/barro/Documents/Projects/RaylibProject/raylib-game/CONVENTIONS.md",
+		"/C/Users/barro/Documents/Projects/RaylibProject/raylib-game/LICENSE",
+		"/C/raylib/raylib/README.md",
+		"/C/raylib/raylib/examples/README.md",
+		"/C/raylib/w64devkit/README.md",
+		"/C/raylib/raylib/projects/SublimeText/README.md",
+		"/C/Users/barro/Documents/Projects/RaylibProject/raylib-game/README.md",
+		"/C/raylib/raylib/examples/Makefile",
+		"/C/raylib/raylib/projects/SublimeText/raylib.sublime-build",
+		"/C/Users/barro/Documents/Projects/DX11Engine/DX11Engine/texture.vs"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/barro/Documents/Projects/RaylibProject/raylib-game/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3305,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2583,
+								2583
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/barro/Documents/Projects/RaylibProject/raylib-game/src/Makefile",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14006,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								14006
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 439.2,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 131.199996948,
+		"history":
+		[
+		]
+	},
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "Packages/User/raylib.sublime-build",
+	"project": "raylib.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
