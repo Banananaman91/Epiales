@@ -15,7 +15,9 @@
 # Project Files
 _deps/
 CMakeFiles/
-*.cmake
+cmake_install.cmake
+CPackConfig.cmake
+CPackSourceConfig.cmake
 *.dir/
 CMakeCache.txt
 

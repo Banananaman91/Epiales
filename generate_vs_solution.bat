@@ -16,7 +16,6 @@ if not exist "%VS_DIR%" mkdir "%VS_DIR%"
 if not exist "%BUILDS_DIR%" mkdir "%BUILDS_DIR%"
 if exist "%CMAKEFILES_DIR%" rmdir /q /s "%CMAKEFILES_DIR%"
 if exist "%CMAKECACHE_FILE%" del "%CMAKECACHE_FILE%"
-pause
 
 cmake -S "%SOURCE_DIR%" -B "%SOURCE_DIR%" -G "%GENERATOR%" -A x64
 if errorlevel 1 (
