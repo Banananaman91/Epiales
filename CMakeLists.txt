@@ -1,31 +1,38 @@
-﻿# CMakeList.txt : CMake project for MyGame, include source and define
-# project specific logic here.
-#
-cmake_minimum_required (VERSION 3.10)
+﻿cmake_minimum_required(VERSION 3.26)
 
-# Enable Hot Reload for MSVC compilers if supported.
-if (POLICY CMP0141)
+if(POLICY CMP0141)
   cmake_policy(SET CMP0141 NEW)
   set(CMAKE_MSVC_DEBUG_INFORMATION_FORMAT "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>")
 endif()
 
-project ("MyGame" VERSION 0.1
-					DESCRIPTION "My game project"
-					LANGUAGES C CXX)
+project(MyGame
+  VERSION 0.1
+  DESCRIPTION "My game project"
+  LANGUAGES C CXX)
 
-					# Enable Debug/Release build types
 set(CMAKE_CONFIGURATION_TYPES "Debug;Release" CACHE STRING "" FORCE)
 
-# Add src and resources directories
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+set(CMAKE_C_STANDARD 11)
+
+set_property(GLOBAL PROPERTY USE_FOLDERS ON)
+set_property(GLOBAL PROPERTY PREDEFINED_TARGETS_FOLDER "CMake")
+
+# Runnable output: builds/<Config>/MyGame.exe + resources/
+set(MYGAME_BUILDS_ROOT "${PROJECT_SOURCE_DIR}/builds")
+
+# Libraries first so src/ can link MYGAME_LIBS.
+# Skip vendor install() rules so raylib/GLFW do not add an INSTALL project.
+set(CMAKE_SKIP_INSTALL_RULES ON)
+include("${PROJECT_SOURCE_DIR}/cmake/Dependencies.cmake")
+set(CMAKE_SKIP_INSTALL_RULES OFF)
+
 add_subdirectory(src)
-add_subdirectory(resources)
 
-# Add external libraries
-add_subdirectory(libraries/whereami-master)
-add_subdirectory(libraries/raylib/raylib)
+target_link_libraries(MyGame PRIVATE ${MYGAME_LIBS})
 
-if (CMAKE_VERSION VERSION_GREATER 3.12)
-  set_property(TARGET MyGame PROPERTY CXX_STANDARD 20)
-endif()
+set_property(DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}" PROPERTY VS_STARTUP_PROJECT MyGame)
 
-# TODO: Add tests and install targets if needed.
+include("${PROJECT_SOURCE_DIR}/cmake/Pack.cmake")
